@@ -21,3 +21,6 @@ Write stdin to stdout and file in Windows Console.
 :: view chapter 1 verse 2 and append to c1.txt
 > type gita\c1\v2.txt | etee --append gita\c1.txt
 ```
+
+
+[![Merferry](https://i.imgur.com/6HVu894.jpg)](https://merferry.github.io)
