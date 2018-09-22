@@ -1,12 +1,11 @@
-# otee
-
 Write stdin to stdout and file in Windows Console.
+> 1. Download [exe file](https://raw.githubusercontent.com/winp/extra-bel/master/ecd.cmd).
+> 2. Copy to `C:\Program_Files\Scripts`.
+> 3. Add `C:\Program_Files\Scripts` to `PATH` environment variable.
 
-
-## usage
 
 ```batch
-> otee [--append|-a] [<output file>]
+> etee [--append|-a] [<output file>]
 
 :: [] -> optional argument
 :: <> -> argument value
@@ -14,11 +13,11 @@ Write stdin to stdout and file in Windows Console.
 
 ```batch
 :: view chapter 1 verse 1 of Bhagvad Gita
-> otee < gita\c1\v1.txt
+> etee < gita\c1\v1.txt
 
 :: view chapter 1 verse 1 and save to c1.txt
-> type gita\c1\v1.txt | otee gita\c1.txt
+> type gita\c1\v1.txt | etee gita\c1.txt
 
 :: view chapter 1 verse 2 and append to c1.txt
-> type gita\c1\v2.txt | otee --append gita\c1.txt
+> type gita\c1\v2.txt | etee --append gita\c1.txt
 ```

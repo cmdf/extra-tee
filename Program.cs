@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace orez.otee {
+namespace App {
 	class Program {
 
 		// constant
@@ -20,7 +20,7 @@ namespace orez.otee {
 		/// </summary>
 		/// <param name="args">Input arguments.</param>
 		static void Main(string[] args) {
-			oParams p = new oParams(args);
+			Params p = new Params(args);
 			char[] buf = new char[BUFFER_SIZE];
 			FileMode m = p.Append ? FileMode.Append : FileMode.Create;
 			TextWriter f = p.File != "" ? new StreamWriter(File.Open(p.File, m)) : null;
