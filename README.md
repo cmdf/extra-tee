@@ -1,5 +1,5 @@
 Write stdin to stdout and file in Windows Console.
-> 1. Download [exe file](https://github.com/winp/extra-tee/releases/download/1.0.0/etee.exe).
+> 1. Download [exe file](https://github.com/cmdf/extra-tee/releases/download/1.0.0/etee.exe).
 > 2. Copy to `C:\Program_Files\Scripts`.
 > 3. Add `C:\Program_Files\Scripts` to `PATH` environment variable.
 
@@ -23,4 +23,4 @@ Write stdin to stdout and file in Windows Console.
 ```
 
 
-[![Merferry](https://i.imgur.com/6HVu894.jpg)](https://merferry.github.io)
+[![cmdf](https://i.imgur.com/6HVu894.jpg)](https://cmdf.github.io)
